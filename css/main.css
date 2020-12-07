@@ -1,4 +1,4 @@
-/************* BASE STYLES *************/
+ vAQ	/************* BASE STYLES *************/
 * { box-sizing: border-box; }
 body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
 input, button { font-family: inherit; font-size: inherit; }
@@ -10,51 +10,32 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 .container{
 
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top: 0 auto;
 	max-width: 1170px;
 }
 
-section {
-	display: flex;
-
-}
+section {display: flex;}
 
 
-.flex	 {
-	display: flex;
-}
+.flex	 {display: flex;}
 
-.flex-column {
-	flex-direction: column;
-}
+.flex-column {flex-direction: column;}
 
-.flex-one{
-	flex: 1
-}
+.flex-one{flex: 1}
 
-.align-center{
-	align-items: center;
-}
+.align-center{align-items: center;}
 
-.center {
-	justify-content: center;
+.center {justify-content: center;}
 
-}
-
-.space-between{
-	justify-content: space-between;
-}
+.space-between{justify-content: space-between;}
 
 .btn {
 
-	cursor: default;
+	cursor: pointer;
 	border: 0;
-	padding: 6px 12px 6px 12px;
+	padding: 6px 12px;
 	border-radius: 3px;
-	line-height: 1.4
+	line-height: 1.4;
 
 }
 
@@ -71,11 +52,11 @@ section {
 
 .form-control{
 	display: block;
-	padding: 6px 12px 6px 12px;
-	border: 1px solid;
-	border-color: #a0a0a0;
-	color: 8598a2;
-	line-height: 1.4px;
+	padding: 6px 12px;
+	border: 1px solid #a0a0a0;
+	border-color: ;
+	color: #8598a2;
+	line-height: 1.4;
 }
 
 .text-light{
